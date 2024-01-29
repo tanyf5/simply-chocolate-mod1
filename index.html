@@ -1,16 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simply Chocolate</title>
 </head>
 <body>
-    <header>
-        <a href="/" target="_self">
-            <p>Simply Chocolate</p>
-            <img src="./images/chocolate-icon.svg" alt="Chocolate icon"/>
-        </a>
+    <header class="header">
+        <div class="container">
+            <a href="/" target="_self" class="logo">
+                <p class="logo-text"><span class="logo-simply">Simply</span> Chocolate</p>
+                <img src="./images/chocolate-icon.svg" alt="Chocolate icon" width="24">
+            </a>
+            <nav class="page-nav">
+                <ul class="ul-nav">
+                    <li class="li-nav">
+                        <a href="" target="">Home</a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="" target="">How it’s made?</a>
+                    </li>
+                    <li class="li-nav">
+                        <a href="" target="">Chocolate is loved</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="ul-social-media">
+                <li>
+                    <a href="">Inst</a>
+                </li>
+                <li>
+                    <a href="">Fb</a>
+                </li>
+                <li>
+                    <a href="">Twi</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="section-hero">
+            <h1 class="h-one visually-hidden">Header1</h1>
+            <div class="hero-h-btn-wrap">
+                <p class="hero-p">Treat yourself or a loved one to our finest ingredients for a moment of pure delight!</p>
+                <div class="hero-btn-wrap">
+                    <button type="button" class="hero-btn-buy">Buy now</button>
+                    <button type="button" class="hero-btn-made">How it’s made?</button>
+                </div>
+            </div>
+            <div class="hero-scroll-wrap">
+                <p class="p-scroll">scroll down</p>
+                <button type="button" class="scroll-btn">
+                    <svg class="scroll-icon" width="22" height="22">
+                        <use href="./images/chocolate-icon.svg#icon-fi-rr-angle-small-left"></use>
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <section class="section-two-advantages">
+                <h2 class="h-two visually-hidden">Header2</h2>
+                <ul class="ul-advantages">
+                    <li class="li-advantages">
+                        <img src="" alt="">
+                        <h3 class="h-three-advantages">Unsurpassed taste</h3>
+                        <p class="p-advantages">
+                            Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.
+                        </p>
+                    </li>
+                    <li class="li-advantages">
+                        <img src="" alt="">
+                        <h3 class="h-three-advantages">Affordable price</h3>
+                        <p class="p-advantages">
+                            Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.
+                        </p>
+                    </li>
+                    <li class="li-advantages">
+                        <img src="" alt="">
+                        <h3 class="h-three-advantages">Own production</h3>
+                        <p class="p-advantages">
+                            We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
+                        </p>
+                    </li>
+                </ul>
+        </section>
+        <section class="sect-three-ingredients">
+            <div class="sect-three-h-p-wrap">
+                <h2 class="section-title">It all adds up to one exceptional <span class="section-title-taste">taste</span> sensation</h2>
+                <p class="p-ingredients">
+                    At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details. From the sourcing of the finest ingredients to the careful crafting of each individual piece, every step of our process adds up to one exceptional taste sensation.
+                </p>
+            </div>
+            <ul>
+                <li>
+                    <img src="./images/milk-choc.png" alt="Milk chocolate pieces">
+                    <button type="button"></button>
+                    <h3>Milk chocolate</h3>
+                </li>
+                <li>
+                    <img src="./images/milk.png" alt="A bottle of milk">
+                    <button type="button"></button>
+                    <h3>Milk</h3>
+                </li>
+                <li>
+                    <img src="./images/nuts.png" alt="Two nuts">
+                    <button type="button"></button>
+                    <h3>Nuts</h3>
+                </li>
+                <li>
+                    <img src="./images/roast-beans.png" alt="Roasted cocoa beans">
+                    <button type="button"></button>
+                    <h3>Semi-sweet chocolate</h3>
+                </li>
+                <li>
+                    <img src="./images/beans.png" alt="Cocoa beans">
+                    <button type="button"></button>
+                    <h3>Cacao</h3>
+                </li>
+                <li>
+                    <img src="./images/raspberry.png" alt="Four raspberries">
+                    <button type="button"></button>
+                    <h3>Raspberry</h3>
+                </li>
+                <li>
+                    <img src="./images/coconut.png" alt="Coconut pieces">
+                    <button type="button"></button>
+                    <h3>Coconut oil</h3>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>How it’s made?</h2>
+            <ul>
+                <li>
+                    <img src="./images/screen-shot.jpg" alt="Video screen shot">
+                </li>
+                <li>
+                    <h3>Try  our chocolates today and discover the perfect balance of flavor</h3>
+                    <ul>
+                        <li>
+                            Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.
+                        </li>
+                        <li>
+                            At the same time, prepare a water bath. Melt the butter on it.
+                        </li>
+                        <li>
+                            "Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone spatula so that the mass becomes uniform and silky.
+                        </li>
+                        <li>
+                            Heat the mixture over low heat, letting it barely boil.
+                        </li>
+                        <li>
+                            Pour the chocolate into special containers (can be replaced with ice molds). Allow to cool and harden.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Our products</h2>
+            <ul>
+                <li>
+                    <img src="./images/bar-1.jpg" alt="Orange chocolate bar">
+                    <h3>Orange</h3>
+                    <p>Dark chocolate</p>
+                    <button type="button">45 Uah</button>
+                </li>
+                <li>
+                    <img src="./images/bar-2.jpg" alt="Apple&Cranberry chocolate bar">
+                    <h3>Apple&Cranberry</h3>
+                    <p>Milk chocolate</p>
+                    <button type="button">50 Uah</button>
+                </li>
+                <li>
+                    <img src="./images/bar-3.jpg" alt="Lime&sea salt chocolate bar">
+                    <h3>Lime&Sea salt</h3>
+                    <p>Dark chocolate</p>
+                    <button type="button">66 Uah</button>
+                </li>
+                <li>
+                    <img src="./images/bar-4.jpg" alt="Pineapple chocolate bar">
+                    <h3>Pineapple</h3>
+                    <p>Dark chocolate</p>
+                    <button type="button">54 Uah</button>
+                </li>
+                <li>
+                    <img src="./images/bar-5.jpg" alt="Classic chocolate bar">
+                    <h3>Classic</h3>
+                    <p>Milk chocolate</p>
+                    <button type="button">45 Uah</button>
+                </li>
+                <li>
+                    <img src="./images/bar-6.jpg" alt="Honey chocolate bar">
+                    <h3>Honey</h3>
+                    <p>Milk chocolate</p>
+                    <button type="button">50 Uah</button>
+                </li>
+                <li>
+                    <img src="./images/bar-7.jpg" alt="Roasted fruits chocolate bar">
+                    <h3>Roaste fruits</h3>
+                    <p>Dark chocolate</p>
+                    <button type="button">66 Uah</button>
+                </li>
+                <li>
+                    <img src="./images/bar-8.jpg" alt="Classic chocolate bar">
+                    <h3>Classic</h3>
+                    <p>White chocolate</p>
+                    <button type="button">54 Uah</button>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Top sellers</h2>
+            <ul>
+                <li>
+                    <img src="./images/top-1.jpg" alt="Chocolate and nuts">
+                    <h3>Chocolate with nuts</h3>
+                </li>
+                <li>
+                    <img src="./images/top-2.jpg" alt="Chocolate with roasted fruits">
+                    <h3>Chocolate with fruits</h3>
+                </li>
+                <li>
+                    <img src="./images/top-3.jpg" alt="Chocolate bars">
+                    <h3>Dark chocolate</h3>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h3>Chocolate is loved</h3>
+            <ul>
+                <li>
+                    <img src="./images/Ellipse.png" alt="Victoria's photo">
+                    <h2>Victoria Dobrzhanska</h2>
+                    <p>
+                        I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.
+                    </p>
+                </li>
+                <li>
+                    <img src="./images/Ellipse (1).png" alt="Nazar's photo">
+                    <h2>Nazar Babenko</h2>
+                    <p>
+                        This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the chocolate is good.
+                    </p>
+                </li>
+                <li>
+                    <img src="./images/Ellipse (2).png" alt="Olena's photo">
+                    <h2>Olena Kampusch</h2>
+                    <p>
+                        Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft but crunchy.
+                    </p>
+                </li>
+            </ul>
+            <button type="button">Leave a review</button>
+        </section>
+    </main>
+    <footer>
+        <h2>Chocolate a delicious cure for a bad day</h2>
+        <ul>
+            <h4>Social networks</h4>
+            <li>Ins</li>
+            <li>Fb</li>
+            <li>Twi</li>
+        </ul>
+        <address>
+            <ul>
+                <h4>Contact us</h4>
+                <li>
+                    <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+                </li>
+                <li>
+                    <a href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+                </li>
+            </ul>
+        </address>
+        </ul>
         <nav>
             <ul>
                 <li>
@@ -24,17 +292,7 @@
                 </li>
             </ul>
         </nav>
-        <ul>
-            <li>
-                <a href="">Inst</a>
-            </li>
-            <li>
-                <a href="">Fb</a>
-            </li>
-            <li>
-                <a href="">Twi</a>
-            </li>
-        </ul>
-    </header>
+        <button type="button">Subscribe</button>
+    </footer>
 </body>
 </html>
